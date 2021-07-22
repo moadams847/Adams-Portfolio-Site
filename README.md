@@ -10,7 +10,7 @@ This project was set up to showcase my works, CV, Blogs and Contacts.
 
 ## Screenshot
 
-[![My Portfolio Site](img/psite.PNG "My Portfolio Site")]
+![My Portfolio Site](img/psite.PNG "My Portfolio Site")
 
 ## Link
 
