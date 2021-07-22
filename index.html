@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap css customized   -->
+    <link href="css/main.min.css" rel="stylesheet" />
+
+    <!-- bootstrap css
+    <link rel="stylesheet" href="css/bootstrap.css" /> -->
+
+    <!-- my css styles -->
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+
+    <!-- google fonts -->
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/c828cc6e39.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- title -->
+    <title>Adams-Porfolio</title>
+
+    <style>
+      body {
+        background-color: #e1e8eb;
+      }
+
+      /* image zoom */
+      .zoom {
+        transition: transform 0.2s;
+      }
+
+      .zoom:hover {
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- nav-bar -->
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        bg-info
+        container
+        mt-3
+        shadow
+        py-3
+        px-5
+        rounded
+      "
+    >
+      <a class="navbar-brand" href="#">Adams Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto text-reset">
+          <a class="nav-link text-light" aria-current="page" href="#projects"
+            >Projects</a
+          >
+          <a
+            class="nav-link text-light"
+            href="https://drive.google.com/file/d/1f-Fp-38QSwTlUvUtU1uYnlQC0xmXkWg5/view?usp=sharing"
+            target="_blank"
+            >CV</a
+          >
+          <a class="nav-link text-light" href="#">Blogs</a>
+          <a class="nav-link text-light" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile section -->
+    <section
+      class="
+        container
+        mt-3
+        p-5
+        bg-light
+        shadow
+        bg-body
+        rounded
+        text-center text-sm-start
+      "
+    >
+      <div class="row mb-4 g-0">
+        <div class="col-md-3 align-self-center">
+          <img
+            src="img/Adams_.jpg"
+            alt=""
+            class="img-fluid rounded-circle mt-3 w-auto mb-4 mb-sm-0 zoom"
+          />
+        </div>
+        <div class="col-md-7">
+          <h1 class="display-3">Adams Mohmmed</h1>
+          <h4 class="py-2">Junior Data Analyst & ITS Support Officer</h4>
+          <p class="lead">
+            An analytical economics graduate with over two years of experience
+            working as a Junior Data Analyst and a Teaching Assistant. I would
+            like to work in an environment that challenges me and allows me to
+            be creative while also allowing me to use my problem-solving and
+            analytical thinking skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- technical skils -->
+    <section class="container mt-3 p-5 bg-light shadow bg-body rounded">
+      <h3 class="text-center mb-4">Technical Skills</h3>
+      <div class="row text-center text-sm-start text-reset">
+        <div class="col-md-10">
+          <button class="btn btn-primary m-1 text-white">ANOVA</button>
+          <button class="btn btn-primary m-1 text-white">
+            Hypothesis Testing
+          </button>
+          <button class="btn btn-primary m-1 text-white">
+            Regression Analysis
+          </button>
+          <button class="btn btn-primary m-1 text-white">
+            Binary Classification
+          </button>
+          <button class="btn btn-primary m-1 text-white">PowerBI</button>
+          <button class="btn btn-primary m-1 text-white">R</button>
+          <button class="btn btn-primary m-1 text-white">Python</button>
+          <button class="btn btn-primary m-1 text-white">Flask</button>
+          <button class="btn btn-primary m-1 text-white">Django</button>
+          <button class="btn btn-primary m-1 text-white">PostgreSQL</button>
+          <button class="btn btn-primary m-1 text-white">SQL</button>
+          <button class="btn btn-primary m-1 text-white">HTML</button>
+          <button class="btn btn-primary m-1 text-white">CSS</button>
+          <button class="btn btn-primary m-1 text-white">SCSS</button>
+          <button class="btn btn-primary m-1 text-white">Bootstrap</button>
+          <button class="btn btn-primary m-1 text-white">JavaScript</button>
+          <button class="btn btn-primary m-1 text-white">jQuery</button>
+          <button class="btn btn-primary m-1 text-white">Git</button>
+          <button class="btn btn-primary m-1 text-white">GitHub</button>
+          <button class="btn btn-primary m-1 text-white">Linux</button>
+          <button class="btn btn-primary m-1 text-white">Heroku</button>
+          <button class="btn btn-primary m-1 text-white">Amazon S3</button>
+          <button class="btn btn-primary m-1 text-white">PythonAnywhere</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- personal projects -->
+    <section id="projects" class="container mt-3 p-5 bg-primary shadow rounded">
+      <h3 class="text-center mb-4 text-light">Personal Projects</h3>
+      <div class="row g-4">
+        <!-- col-3 -->
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div
+                class="
+                  card-title
+                  d-flex
+                  justify-content-between
+                  align-content-center
+                  text-center
+                "
+              >
+                <h5>2020</h5>
+                <h5>
+                  Regression Analysis of the Impact of Illiteracy and Income on
+                  Murder
+                </h5>
+              </div>
+              <div class="card-text">
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Analyzed data of 397 rows
+                  with 3 features from the R data set to predict murder rate
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Performed hypothesis
+                  testing among the features
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Tested important
+                  assumptions underlying the linear regression model
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Using an F-test with a 5%
+                  level of significance, the entire model was found to be
+                  meaningful
+                </p>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-github"></i> Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div
+                class="
+                  card-title
+                  d-flex
+                  justify-content-between
+                  align-content-center
+                  text-center
+                "
+              >
+                <h5>2021</h5>
+                <h5>Sales Data Analysis</h5>
+              </div>
+              <div class="card-text">
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Gathered historical data of
+                  MavenMarket sales data with eight excel sheets
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Loaded the excel sheets
+                  into Power BI
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Transformed the data with
+                  power query
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Modelled the data using the
+                  star schema
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Used DAX to add calculated
+                  columns and measures
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Designed a report with
+                  Power BI report view
+                </p>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark">
+                  <i class="fab fa-google-drive"></i> Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-4 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div
+                class="
+                  card-title
+                  d-flex
+                  justify-content-between
+                  align-content-center
+                  text-center
+                "
+              >
+                <h5>2020</h5>
+                <h5>Feature Engineering of House Price Data Set from Kaggle</h5>
+              </div>
+              <div class="card-text">
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Built the Used Python’s
+                  Pandas to load a dataset of 1460 rows with 81 features into
+                  Jupyter Notebook
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Performed exploratory data
+                  analysis with Matplotlib, NumPy, Pandas, and Seaborn
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Imputed missing values,
+                  scaled features, handled rare categorical features among
+                  others
+                </p>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-github"></i> Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div
+                class="
+                  card-title
+                  d-flex
+                  justify-content-between
+                  align-content-center
+                  text-center
+                "
+              >
+                <h5>2021</h5>
+                <h5>Password Generator Web Application</h5>
+              </div>
+              <div class="card-text">
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Built the front-end with
+                  CSS3 and HTML5
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Built the back-end with
+                  flask
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Handled versioning with Git
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Hosted the website on
+                  GitHub
+                </p>
+                <p class="">
+                  <i class="bi bi-check-circle"></i> Deployed the website to
+                  PythonAnywhere
+                </p>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-github"></i> Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer
+      id="contact"
+      class="
+        container
+        mb-3
+        mt-3
+        py-2
+        px-5
+        shadow
+        rounded
+        bg-dark
+        position-relative
+        text-center
+      "
+    >
+      <p class="lead text-light">Adams Portfolio &copy; 2021</p>
+      <a href="" class="position-absolute bottom-0 end-0 p-3"
+        ><i class="bi bi-arrow-up-circle h1"></i
+      ></a>
+      <a href="https://twitter.com/thenexeconomist" target="_blank"
+        ><i class="bi bi-twitter text-light mx-1"></i
+      ></a>
+      <!-- <a href="" target="_blank"
+        ><i class="bi bi-instagram text-light mx-1"></i
+      ></a> -->
+      <a href="http://www.linkedin.com/in/moadams847" target="_blank"
+        ><i class="bi bi-linkedin text-light mx-1"></i
+      ></a>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- my js -->
+  </body>
+</html>

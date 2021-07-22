@@ -1,0 +1,23 @@
+//  variables go here
+// these are variables from bs I changed
+$primary: #a2dbfa;
+$info: #39a2db;
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+
+// 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// custom map
+// $custom-theme-colors: (
+//   "altinfo": #f2ebfa,
+//   "altprim": #522192,
+// );
+
+// $theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// entire bootstrap file goes here
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
