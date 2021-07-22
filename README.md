@@ -1,6 +1,6 @@
 # Adams Portfolio Site
 
-My personal website
+My Portfolio Site
 
 ## Motivation
 
@@ -8,12 +8,13 @@ This project was set up to showcase my works, CV, Blogs and Contacts.
 
 ## Screenshot
 
-[![ITS password generator screenshot](images/pass-gen.PNG "ITS password generator screenshot")](https://drive.google.com/file/d/1ozLLqT1RXJmseM14IPMwSHMfizx5uTvM/view?usp=sharing)
+[![My Portfolio Site](img/psite "My Portfolio Site")]
+
+## Link
 
 ## Installation
 
-1. Clone Repo
-
+Clone Repo
 
 ## Tech/framework used
 
