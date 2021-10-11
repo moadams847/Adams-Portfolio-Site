@@ -12,7 +12,7 @@ This project was set up to showcase my works, CV, Blogs and Contacts.
 
 ## URL
 
-[Todo List App with Typescript and Webpack]()
+[Adams Portfolio Site]()
 
 ## Installation
 
