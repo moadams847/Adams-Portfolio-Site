@@ -10,7 +10,7 @@
     <link href="css/main.min.css" rel="stylesheet" />
 
     <!-- my css styles -->
-    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- bootstrap icons -->
     <link
@@ -33,31 +33,16 @@
 
     <!-- title -->
     <title>Adams-Porfolio</title>
-
-    <style>
-      body {
-        background-color: #e1e8eb;
-      }
-
-      /* image zoom */
-      .zoom {
-        transition: transform 0.2s;
-      }
-
-      .zoom:hover {
-        transform: scale(1.2);
-      }
-    </style>
   </head>
 
-  <body>
+  <body class="bg-light">
     <!-- nav-bar -->
     <nav
+      id="nav"
       class="
         navbar navbar-expand-lg navbar-dark
         bg-info
         container
-        mt-3
         shadow
         py-3
         px-5
@@ -74,12 +59,17 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+          <i class="fa fa-navicon" style="color: #fff; font-size: 28px"></i>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto text-reset">
           <a class="nav-link text-light" aria-current="page" href="#projects"
             >Projects</a
+          >
+          <a class="nav-link text-light" aria-current="page" href="#skills"
+            >Skills</a
           >
           <a
             class="nav-link text-light"
@@ -87,7 +77,7 @@
             target="_blank"
             >CV</a
           >
-          <a class="nav-link text-light" href="#">Blogs</a>
+          <!-- <a class="nav-link text-light" href="#">Blogs</a> -->
           <a class="nav-link text-light" href="#contact">Get in Touch</a>
         </div>
       </div>
@@ -99,7 +89,7 @@
         container
         mt-3
         p-5
-        bg-light
+        bg-white
         shadow
         bg-body
         rounded
@@ -116,104 +106,116 @@
         </div>
         <div class="col-md-7">
           <h1 class="display-3">Adams Mohmmed</h1>
-          <h4 class="py-2">Junior Data Analyst & ITS Support Officer</h4>
+          <!-- <h4 class="py-2">Software Dev</h4> -->
           <p class="lead">
-            An analytical economics graduate with over two years of experience
-            working as a Junior Data Analyst and a Teaching Assistant. I would
-            like to work in an environment that challenges me and allows me to
-            be creative while also allowing me to use my problem-solving and
-            analytical thinking skills.
+            Software dev with primary focus on JavaScript and Firebase. Expert
+            in HTML, CSS, Javascript, Python, SQL, jQuery, Firebase and Flask. I
+            am committed to becoming a valuable member of any team I am a part
+            of, and I believe in the power of a united front.
           </p>
         </div>
       </div>
     </section>
 
     <!-- technical skils -->
-    <section class="container mt-3 p-5 bg-light shadow bg-body rounded">
+    <section
+      id="skills"
+      class="container mt-3 p-5 bg-white shadow bg-body rounded"
+    >
       <h3 class="text-center mb-4">Technical Skills</h3>
-      <div class="row text-center text-sm-start text-reset">
-        <div class="col-md-10">
-          <button class="btn btn-primary m-1 text-white">ANOVA</button>
-          <button class="btn btn-primary m-1 text-white">
-            Hypothesis Testing
-          </button>
-          <button class="btn btn-primary m-1 text-white">
-            Regression Analysis
-          </button>
-          <button class="btn btn-primary m-1 text-white">
-            Binary Classification
-          </button>
-          <button class="btn btn-primary m-1 text-white">PowerBI</button>
-          <button class="btn btn-primary m-1 text-white">R</button>
-          <button class="btn btn-primary m-1 text-white">Python</button>
-          <button class="btn btn-primary m-1 text-white">Flask</button>
-          <button class="btn btn-primary m-1 text-white">Django</button>
-          <button class="btn btn-primary m-1 text-white">PostgreSQL</button>
-          <button class="btn btn-primary m-1 text-white">SQL</button>
-          <button class="btn btn-primary m-1 text-white">HTML</button>
-          <button class="btn btn-primary m-1 text-white">CSS</button>
-          <button class="btn btn-primary m-1 text-white">SCSS</button>
-          <button class="btn btn-primary m-1 text-white">Bootstrap</button>
-          <button class="btn btn-primary m-1 text-white">JavaScript</button>
-          <button class="btn btn-primary m-1 text-white">jQuery</button>
-          <button class="btn btn-primary m-1 text-white">Git</button>
-          <button class="btn btn-primary m-1 text-white">GitHub</button>
-          <button class="btn btn-primary m-1 text-white">Linux</button>
-          <button class="btn btn-primary m-1 text-white">Heroku</button>
-          <button class="btn btn-primary m-1 text-white">Amazon S3</button>
-          <button class="btn btn-primary m-1 text-white">PythonAnywhere</button>
+      <div class="row g-4 justify-content-around align-content-center">
+        <div class="col-md-5">
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >HTML</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >CSS</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >SCSS</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >JavaScript</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Typescript</span
+          >
+
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >jQuery</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Git</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >GitHub</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Linux</span
+          >
+        </div>
+        <div class="col-md-5">
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Python</span
+          >
+
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Flask</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Firebase</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Postgres</span
+          >
+
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Heroku</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Netlify</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >Statistics</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >SQL</span
+          >
+          <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
+            >PowerBI</span
+          >
         </div>
       </div>
     </section>
 
     <!-- personal projects -->
-    <section id="projects" class="container mt-3 p-5 bg-primary shadow rounded">
-      <h3 class="text-center mb-4 text-light">Personal Projects</h3>
+    <section
+      id="projects"
+      class="container mt-3 p-5 bg-white shadow rounded position-relative"
+    >
+      <h3 class="text-center mb-4 text-dark">Personal Projects</h3>
       <div class="row g-4">
-        <!-- col-1 -->
-        <div class="col-md-4">
-          <div class="card mt-0 mt-md-3">
-            <img
-              src="img/show-2.PNG"
-              class="card-img-top"
-              alt="An image of the website"
-            />
-            <div class="card-body">
-              <h5 class="card-title">The Drum Beat Book Store</h5>
-              <p class="card-text">
-                A website created to promote and sell 'The Drum Beat' Book
-              </p>
-              <a
-                href="https://github.com/moadams847/The-Drum-Beat-Book-Site"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i> Learn more</a
-              >
-            </div>
-          </div>
-        </div>
-
         <!-- col-2 -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card bg-light border-0 shadow">
             <img
-              src="img/show-11.PNG"
+              src="img/admin.PNG"
               class="card-img-top"
               alt="An image of a BI project"
             />
             <div class="card-body">
-              <h5 class="card-title">Sales Data Analysis</h5>
+              <h5 class="card-title">AdminComp Docs</h5>
               <p class="card-text">
-                Gathered historical data of MavenMarket sales data with eight
-                excel sheets
+                AdminComp Docs is a utility website designed solely for the
+                Administrative Computing Unit (AdCU) of University of Ghana
+                Computing Systems (UGCS)
               </p>
               <a
-                href="https://drive.google.com/drive/folders/15rreFNBLA4LeLvGj1ZebzwRLrekavsft?usp=sharing"
+                href="https://github.com/moadams847/AdminComp-Docs/tree/AddFirebase"
                 target="_blank"
                 class="btn btn-dark"
               >
-                <i class="fab fa-google-drive"></i> Learn more</a
+                <i class="fab fa-github"></i> Learn more</a
               >
             </div>
           </div>
@@ -221,25 +223,166 @@
 
         <!-- col-3 -->
         <div class="col-md-4">
-          <div class="card mt-0 mt-md-3">
+          <div class="card bg-light border-0 shadow">
             <img
-              src="img/show-3.PNG"
+              src="img/db.PNG"
               class="card-img-top"
               alt="An image of the website"
             />
             <div class="card-body">
-              <h5 class="card-title">ITS Password Generator</h5>
+              <h5 class="card-title">AdminComp Docs Dashboard</h5>
               <p class="card-text">
-                This project is a web interface that generates passwords in a
-                random fashion
+                This project is for admins of
+                <a
+                  href="https://zen-ptolemy-6bcc40.netlify.app/"
+                  target="_blank"
+                  >AdminComp Docs Site</a
+                >
+                . This is to enable them edit parts of the site in real time
+                without touching a single line of code.
               </p>
               <a
-                href="https://github.com/moadams847/ITS-app-password-generator"
+                href="https://github.com/moadams847/AdminComp-Docs-Dashboard/tree/authFirebase"
                 target="_blank"
                 class="btn btn-dark"
               >
                 <i class="fab fa-github"></i> Learn more</a
               >
+            </div>
+          </div>
+        </div>
+
+        <!-- col-1 -->
+        <div class="col-md-4">
+          <div class="card bg-light border-0 shadow">
+            <img
+              src="img/api.PNG"
+              class="card-img-top"
+              alt="An image of the website"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Password Generator API</h5>
+              <p class="card-text">
+                I started this project to automate an aspect of the work I did
+                as an ITS support officer at the University Of Ghana Computing
+                System.
+              </p>
+              <a
+                href="https://github.com/moadams847/ITS-app-password-generator/tree/passwordAPI"
+                target="_blank"
+                class="btn btn-dark"
+              >
+                <i class="fab fa-github"></i> Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+
+      <a
+        class="
+          text-dark
+          mb-1
+          position-absolute
+          bottom-0
+          start-50
+          translate-middle-x
+        "
+        data-bs-toggle="collapse"
+        href="#collapseExample"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        <span data-bs-toggle="tooltip" data-bs-placement="left" title="more">
+          <i class="projArrow bi bi-chevron-down h1"></i>
+        </span>
+      </a>
+      <div class="collapse" id="collapseExample">
+        <div class="row g-4 mt-4 mb-4">
+          <!-- col-2 -->
+          <div class="col-md-4">
+            <div class="card bg-light border-0 shadow">
+              <img
+                src="img/recipe.PNG"
+                class="card-img-top"
+                alt="An image of a BI project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Recipe App with Firebase and Webpack</h5>
+                <p class="card-text">
+                  A simple recipe app for keeping track of your mother's
+                  favourite dishes. You can also include a list of the food's
+                  ingredients, a link to a blog or vlog that shows how it's
+                  created, and other information.
+                </p>
+                <a
+                  href="https://github.com/moadams847/recipe-app-webpack/tree/tryFeature"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  <i class="fab fa-github"></i> Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- col-3 -->
+          <div class="col-md-4">
+            <div class="card bg-light border-0 shadow">
+              <img
+                src="img/pgg.PNG"
+                class="card-img-top"
+                alt="An image of the website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Flask-API Based Password Generator App
+                </h5>
+                <p class="card-text">
+                  The goal of this project is to create a user interface for
+                  consuming a random character generator
+                  <a
+                    href="https://github.com/moadams847/ITS-app-password-generator/tree/passwordAPI"
+                    target="_blank"
+                    >API</a
+                  >
+                  that I created using Flask.
+                </p>
+                <a
+                  href="https://github.com/moadams847/Flask-API-Password-Generator/tree/useOOPJS"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  <i class="fab fa-github"></i> Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- col-1 -->
+          <div class="col-md-4">
+            <div class="card bg-light border-0 shadow">
+              <img
+                src="img/show-2.PNG"
+                class="card-img-top"
+                alt="An image of the website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Drum Beat Book Store</h5>
+                <p class="card-text">
+                  A website created to promote and sell 'The Drum Beat' Book
+                </p>
+                <a
+                  href="https://github.com/moadams847/The-Drum-Beat-Book-Site/tree/UseJQueryToRefactor"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  <i class="fab fa-github"></i> Learn more</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -252,7 +395,6 @@
       id="contact"
       class="
         container
-        mb-3
         mt-3
         py-1
         px-5
@@ -266,7 +408,7 @@
       <p class="text-light lead mb-1">Adams Portfolio &copy; 2021</p>
       <p class="text-light mb-1">+233-500-025-847</p>
       <div class="mb-1">
-        <a href="" class="position-absolute bottom-0 end-0 p-3"
+        <a href="#" class="position-absolute bottom-0 end-0 p-3"
           ><i class="bi bi-arrow-up-circle h1"></i
         ></a>
 
@@ -285,7 +427,17 @@
     </footer>
 
     <!-- bootstrap js -->
-    <script src="js/bootstrap.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
 
     <!-- my js -->
   </body>
