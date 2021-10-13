@@ -124,7 +124,7 @@
     >
       <h3 class="text-center mb-4">Technical Skills</h3>
       <div class="row g-4 justify-content-around align-content-center">
-        <div class="col-md-5">
+        <div class="col-md-5 text-center text-md-start">
           <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
             >HTML</span
           >
@@ -154,7 +154,7 @@
             >Linux</span
           >
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 text-center text-md-start">
           <span class="bg-primary m-1 d-inline-block text-white rounded p-2"
             >Python</span
           >
@@ -389,6 +389,61 @@
       </div>
     </section>
 
+    <!-- contact -->
+
+    <section class="container mt-3 p-5 bg-white shadow bg-body rounded">
+      <h3 class="text-center mb-4">Get In Touch</h3>
+      <div class="row justify-content-around align-content-center">
+        <div class="col-md-6">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input type="text" class="form-control" id="name" name="name" />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Subject</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                name="subject"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- footer -->
 
     <footer
@@ -412,7 +467,7 @@
           ><i class="bi bi-arrow-up-circle h1"></i
         ></a>
 
-        <a href="https://twitter.com/thenexeconomist" target="_blank"
+        <a href="https://twitter.com/moadams847" target="_blank"
           ><i class="bi bi-twitter text-light mx-1"></i
         ></a>
 
